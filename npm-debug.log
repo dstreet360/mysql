@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'my-sql' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json chat-example@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'my-sql', null ]
+7 verbose cache add name=undefined spec="my-sql" args=["my-sql",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'my-sql',
+8 verbose parsed url   path: 'my-sql',
+8 verbose parsed url   href: 'my-sql' }
+9 silly lockFile e49d5026-my-sql my-sql
+10 verbose lock my-sql /home/ubuntu/.npm/e49d5026-my-sql.lock
+11 silly lockFile e49d5026-my-sql my-sql
+12 silly lockFile e49d5026-my-sql my-sql
+13 verbose addNamed [ 'my-sql', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile e56c99a3-my-sql my-sql@
+16 verbose lock my-sql@ /home/ubuntu/.npm/e56c99a3-my-sql.lock
+17 silly addNameRange { name: 'my-sql', range: '*', hasData: false }
+18 verbose request where is /my-sql
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id d4b32582738a8811
+21 verbose url raw /my-sql
+22 verbose url resolving [ 'https://registry.npmjs.org/', './my-sql' ]
+23 verbose url resolved https://registry.npmjs.org/my-sql
+24 verbose request where is https://registry.npmjs.org/my-sql
+25 info trying registry request attempt 1 at 00:37:11
+26 http GET https://registry.npmjs.org/my-sql
+27 http 404 https://registry.npmjs.org/my-sql
+28 silly registry.get cb [ 404,
+28 silly registry.get   { 'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '2',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Mon, 05 Oct 2015 00:37:11 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1444005431.427580,VS0,VE282' } ]
+29 silly lockFile e56c99a3-my-sql my-sql@
+30 silly lockFile e56c99a3-my-sql my-sql@
+31 error 404 Not Found
+31 error 404
+31 error 404 'my-sql' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'chat-example'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Linux 3.14.13-c9
+33 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "my-sql"
+34 error cwd /home/ubuntu/workspace
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
